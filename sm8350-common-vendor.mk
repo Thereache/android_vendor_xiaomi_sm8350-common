@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
-    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -442,7 +441,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
     vendor.qti.hardware.radio.ims@1.2 \
@@ -534,7 +532,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0.xml \
     vendor.xiaomi.hardware.misys@3.0.xml \
     vendor.xiaomi.hardware.misys@4.0.xml \
-    ATFWD-daemon \
     adpl \
     adsprpcd \
     cdsprpcd \
